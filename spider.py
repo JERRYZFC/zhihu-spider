@@ -11,9 +11,9 @@ import random
 def get_data(_xsrf,captcha):
     data = {
             '_xsrf':_xsrf,
-            'password':'ly941122',
+            'password':'your_password',
             'remember_me':'true',
-            'email':'87215320@qq.com',
+            'email':'your_email',
             'captcha':captcha
             }
     return data
@@ -37,7 +37,7 @@ def get_config():
     config = {
             'host':'localhost',
             'user':'root',
-            'password':'ly941122',
+            'password':'sql_password',
             'port':3306 ,
             'database':'zhihu'
             }
